@@ -8,7 +8,7 @@ function Hero() {
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentWordIndex((prevIndex) => (prevIndex + 1) % words.length);
-        }, 4000); // Change word every 2 seconds
+        }, 4000); // Change word every 4 seconds
 
         return () => clearInterval(interval);
     }, []);
@@ -20,17 +20,15 @@ function Hero() {
                     <span className="flip-text">{words[currentWordIndex]}</span>
                 </h1>
             </div>
-            <p>We know building alone is hard. ForgeHacks is a community-driven hackathon
+            <p>Building alone is hard. ForgeHacks is a community-driven hackathon
                 that connects you with makers, mentors, and investors who get it.</p>
             <iframe
                 src="https://lu.ma/embed/event/evt-5L5GDEKngBTgA72/simple"
-                width="1000"
-                height="550"
-                frameborder="0"
                 className="iframe"
-                allowfullscreen=""
+                frameborder="0"
+                allowFullScreen=""
                 aria-hidden="false"
-                tabindex="0"
+                tabIndex="0"
             ></iframe>
             {/* <div className="judges-container">
                 <h2>Judges</h2>
