@@ -4,6 +4,7 @@
     width: 100%;
     max-width: 1000px;
     height: 550px;
+    overflow: hidden;
 }
 
 .hero-container {
@@ -123,6 +124,8 @@ p {
     }
 
     .iframe {
-        height: 400px;
+        height: auto;
+        min-height: 300px;
+        max-height: calc(100vh - 100px);
     }
 }
