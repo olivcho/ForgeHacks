@@ -1,3 +1,8 @@
+:root {
+  --color: #ffffff;
+  --color-secondary: #bfdfff;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -5,14 +10,37 @@
   text-align: center;
 }
 
+.noSelect {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.noSelect:focus {
+  outline: none !important;
+}
+
 body {
   margin: 0;
   min-height: 100vh;
-  background-color: #f4f8e2;
-}
 
-.App {
-  background-color: #f4f8e2;
+  background: linear-gradient(-45deg, #050d19, #000000, #061524, #0d1f38);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 h1 {
