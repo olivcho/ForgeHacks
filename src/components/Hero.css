@@ -37,7 +37,11 @@
 .hero-title {
     font-size: clamp(2rem, 5vw, 3rem);
     color: var(--color);
-    transform: translateX(-22%);
+    transform: translateX(0);
+    
+    @media (min-width: 768px) {
+        transform: translateX(-22%);
+    }
 }
 
 .flip-text {

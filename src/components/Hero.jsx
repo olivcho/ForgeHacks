@@ -32,9 +32,9 @@ function Hero() {
                 Secure Your Spot
                 <img
                     className="arrow-up-right"
-                    src="public/arrow-up-right.svg"
+                    src="/arrow-up-right.svg"
                     style={{width: "1.7rem", height: "1.7rem"}}/>
-            </button>
+                </button>
 
             <iframe
                 src="https://lu.ma/embed/event/evt-5L5GDEKngBTgA72/simple"
