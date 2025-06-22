@@ -6,7 +6,7 @@ import Tracks from './Tracks'
 function Hero() {
     const words = ["builders.", "students.", "professionals.", "engineers.", "you."];
     const [currentWordIndex, setCurrentWordIndex] = useState(0);
-    const hackathonDate = "2025-08-02T10:00:00"; // Set this to your hackathon start date
+    const hackathonDate = "2025-07-26T9:00:00"; // Set this to your hackathon start date
 
     useEffect(() => {
         const interval = setInterval(() => {
@@ -25,6 +25,7 @@ function Hero() {
             </div>
             <p>Building alone is hard. ForgeHacks is a community-driven hackathon
                 that connects you with makers, mentors, and investors to help you get it done.</p>
+
             <CountdownTimer className="countdown-timer" targetDate={hackathonDate} />
             <button
                 className="register-button noSelect"
