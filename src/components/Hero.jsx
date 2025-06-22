@@ -6,7 +6,7 @@ import Tracks from './Tracks'
 function Hero() {
     const words = ["builders.", "students.", "professionals.", "engineers.", "you."];
     const [currentWordIndex, setCurrentWordIndex] = useState(0);
-    const hackathonDate = "2025-07-26T9:00:00"; // Set this to your hackathon start date
+    const hackathonDate = "2025-07-26T09:00:00"; // Set this to your hackathon start date
 
     useEffect(() => {
         const interval = setInterval(() => {
