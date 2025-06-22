@@ -52,7 +52,7 @@
     left: 100%;
     top: 0;
     opacity: 0;
-    animation: fadeInOut 4s ease-in-out 0s infinite;
+    animation: fadeInOut 4s ease-in-out -0.4s infinite;
 }
 
 @keyframes fadeInOut {
