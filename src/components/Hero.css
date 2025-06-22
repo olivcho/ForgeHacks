@@ -3,7 +3,7 @@
     border-radius: 4px;
     width: 100%;
     max-width: 1000px;
-    height: 550px;
+    height: 600px;
     overflow: hidden;
     animation: fadeInUp 1s ease-out 0.6s both;
 }
@@ -52,7 +52,7 @@
     left: 100%;
     top: 0;
     opacity: 0;
-    animation: fadeInOut 4s ease-in-out -0.4s infinite;
+    animation: fadeInOut 4s ease-in-out 0s infinite;
 }
 
 @keyframes fadeInOut {

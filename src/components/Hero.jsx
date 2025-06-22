@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import "./Hero.css"
 import CountdownTimer from './CountdownTimer'
+import Tracks from './Tracks'
 
 function Hero() {
     const words = ["builders.", "students.", "professionals.", "engineers.", "you."];
@@ -44,7 +45,15 @@ function Hero() {
                 aria-hidden="false"
                 tabIndex="0"
             ></iframe>
-            <p className="footer">Questions or sponsorships should be directed to <a href="mailto:help@forgehacks.io">help@forgehacks.io</a></p>
+
+            {/* <line /> */}
+            {/* <Tracks /> */}
+
+            <p className="footer">
+                Interested in joining the team? You may apply <a href="https://form.typeform.com/to/iHgG44MA" target="_blank" rel="noopener noreferrer">here</a>
+                <br />
+                Questions or sponsorships should be directed to <a href="mailto:help@forgehacks.io">help@forgehacks.io</a>
+            </p>
         </div>
     )
 }
