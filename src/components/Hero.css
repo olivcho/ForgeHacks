@@ -1,8 +1,7 @@
 .iframe {
     border: 1px solid #bfcbda88;
     border-radius: 4px;
-    width: 100%;
-    max-width: 1000px;
+    width: 70%;
     height: 600px;
     overflow: hidden;
     animation: fadeInUp 1s ease-out 0.6s both;
@@ -161,6 +160,10 @@ p {
         margin-top: 0.5rem;
     }
 
+    .iframe {
+        height: calc(100vh - 100px);
+    }
+
     .hero-title {
         white-space: normal;
     }
@@ -170,18 +173,8 @@ p {
     }
 
     .footer {
-        width: 90%;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .hero-container {
-        padding: 0 0.5rem;
-    }
-
-    .iframe {
-        height: calc(100vh - 200px);
-        /* min-height: 300px; */
-        /* max-height: calc(100vh - 100px); */
+        width: 100%;
+        font-size: 0.75rem;
+        padding: 1rem 0.5rem;
     }
 }
