@@ -180,8 +180,8 @@ p {
     }
 
     .iframe {
-        height: auto;
-        min-height: 300px;
-        max-height: calc(100vh - 100px);
+        height: calc(100vh - 200px);
+        /* min-height: 300px; */
+        /* max-height: calc(100vh - 100px); */
     }
 }
