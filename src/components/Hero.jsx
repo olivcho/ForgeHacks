@@ -41,10 +41,10 @@ function Hero() {
             <iframe
                 src="https://lu.ma/embed/event/evt-5L5GDEKngBTgA72/simple"
                 className="iframe"
-                frameborder="0"
-                allowFullScreen=""
+                allowFullScreen
                 aria-hidden="false"
                 tabIndex="0"
+                title="ForgeHacks"
             ></iframe>
 
             {/* <line /> */}
