@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import "./Hero.css"
 import CountdownTimer from './CountdownTimer'
 import Tracks from './Tracks'
+import Sponsors from './Sponsors'
 
 function Hero() {
     const words = ["builders.", "students.", "professionals.", "engineers.", "you."];
@@ -47,7 +48,8 @@ function Hero() {
                 title="ForgeHacks"
             ></iframe>
 
-            {/* <line /> */}
+            <Sponsors />
+
             {/* <Tracks /> */}
 
             <p className="footer">
