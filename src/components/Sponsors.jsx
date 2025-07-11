@@ -10,6 +10,22 @@ const sponsors = [
         image: "/static/Composite.svg",
         url: "https://composite.com"
     },
+    {
+        image: "/static/WomenWhoAI.png",
+        url: "https://womenwho.ai"
+    },
+    {
+        image: "/static/Swsh.png",
+        url: "https://joinswsh.com"
+    },
+    {
+        image: "/static/augmentcode.png",
+        url: "https://augmentcode.com"
+    },
+    {
+        image: "/static/breakvc.png",
+        url: "https://breakvc.com"
+    }
 ];
 
 function Sponsors() {
@@ -24,7 +40,11 @@ function Sponsors() {
                 {sponsors.map((sponsor, index) => (
                     <div key={index} className="sponsor">
                         <a href={sponsor.url} target="_blank" rel="noopener noreferrer">
-                            <img src={sponsor.image} alt="Sponsor logo" />
+                            <img 
+                                src={sponsor.image} 
+                                alt="Sponsor logo" 
+                                className={sponsor.image.includes('Swsh.png') ? 'swsh-logo' : ''}
+                            />
                         </a>
                     </div>
                 ))}
